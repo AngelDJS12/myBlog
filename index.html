@@ -1,0 +1,54 @@
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <tittle>Introduccion a p5.js</tittle>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.js"></script>
+      <script src="https://cdnjs.cloudfare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <style type="text/css">
+        h3
+        {
+            font-size: 25px !important;
+        }
+        canvas {
+            border:1px solid-black;
+        }
+        </style>
+        <style>
+            <style>
+            body.shimeji-pinned iframe {
+            pointer-events: none;
+            }
+            body.shimeji-select-ie {
+            cursor: cell !important;
+            }
+            #shimeji-contextMenu::-webkit-scrollbar {
+            width: 6px;
+            }
+            #shimeji-contextMenu::-webkit-scrollbar-thumb {
+            background-color: rgba(30,30,30,0.6);
+            border-radius: 3px;
+            }
+            #shimeji-contextMenu::-webkit-scrollbar-thumb:hover {
+            background: #555;
+            }
+        </style>
+        <meta name="shimejiBrowserExtensionId" content="gohjpllcolmccldfdggmamodembldgpc" data-version="2.0.5">
+    </head>
+    <body>
+        <div class="container">
+            <h3 class="btn btn-primary">Primer proyecto p5.js</h3>
+            <hr>
+          <button onclick="take_snapshot()" class="btn btn-success">Tomar captura</button>
+        </div>
+        
+        <script src="main.js"></script>
+        
+        
+        <canvas id="defaultCanvas0" class="p5Canvas" width="1280" height="960" style="width: 640px; height: 480px; position: absolute; left: 150px; top: 150px;"></canvas>
+        <video playsinline  crossorigin="anonymous" width="640" height="480" style="display: none;"></video>
+        <div id="shimeji-workArea" style="position: fixed; background: transparent; z-index: 2147483643; width: 100vw; height: 100vh; left: 0px; top: 0px; transform: translate(0px, 0px); pointer-events: none;"></div>
+    </body>
+</html>
